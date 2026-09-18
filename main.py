@@ -10,7 +10,7 @@ from llm_service import interpret_notes
 
 load_dotenv()
 
-app = FastAPI(title="GridWise LLM Energy Optimizer")
+app = FastAPI(title="smart-campus-energy-optimization")
 
 # ==========================================
 # Pydantic Models (Request & Response Schema)
